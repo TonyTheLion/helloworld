@@ -1,6 +1,6 @@
 {
   nixpkgs ? <nixpkgs>,
-  helloworldSrc ? { outPath=./.; rev = 0;},
+  helloworldSrc ? { outPath= ./.; rev = 0;},
   officialRelease ? false,
   systems ? [ "i686-linux" "x86_64-linux" ] 
 }:
